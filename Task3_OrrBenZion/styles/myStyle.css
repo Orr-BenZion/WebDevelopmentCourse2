@@ -1,0 +1,223 @@
+body 
+{
+    direction:ltr;
+    background-color : #4f4f4f
+}
+
+#splash{
+    background-color : #d7d7d7;
+    background-image : url(../images/Splash.png);
+    background-repeat:no-repeat;
+    background-size:1000px;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+    
+}
+
+#container {
+    width : 1200px;
+    margin :0 auto;
+    color : white;
+    text-align : center;
+    margin-top : 10px;
+}
+#container p{
+    font-size : x-large;
+}
+#profile {
+    background-image : url(../images/ORBZsmall.png);
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 400px;
+    height: 400px;
+    margin-top : 50px;
+}
+
+
+h1 {
+    font-size : 100px;
+    margin-bottom : 20px;
+}
+
+h2 {
+    font-size : x-large;
+    padding-bottom : 10px;
+}
+
+h3 {
+    margin-top : 50px;
+    padding-bottom : 20px;
+}
+
+footer{
+    background-color : gray;
+    height: 80px;
+    padding-top : 50px;
+    padding-bottom : 30px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:60px;
+}
+
+footer a{
+    margin-right: -35%; 
+    margin-left: 40%;
+}
+
+
+#facebook{
+    background-image : url(../images/facebookgray.png);
+    background-size : 50px;
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 50px;
+    height: 50px;
+    padding-right: 30px;
+}
+
+
+#linkedin{
+    background-image : url(../images/linkdingray.png);
+    background-size : 50px;
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 50px;
+    height: 50px;
+    padding-right: 40px;
+}
+
+#gmail{
+    background-image : url(../images/gmailgray.png);
+    background-size : 40px;
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 50px;
+    height: 40px;
+    
+}
+
+
+.link {
+    text-decoration : none;
+    color : #fb6936;
+    font-weight : bolder;
+}
+
+.link:hover {
+    color : orange;
+}
+
+#facebook:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#gmail:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#linkedin:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#logo {
+    background-image : url(../images/ORBZ_MAAVAR.png);
+    display : inline-block;
+    background-repeat : no-repeat;
+    background-position-x: center;
+    background-position-y:center;
+    background-size: 300px;
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    -webkit-transition: all 1.4ms ease-out;
+    -moz-transition: all 1.4ms ease-out;
+    -ms-transition: all 1.4ms ease-out;
+    -o-transition: all 1.4ms ease-out;
+    transition: all 1.4ms ease-out;
+}
+
+#logo:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1.4ms linear;
+    -moz-transition: all 1.4ms linear;
+    -ms-transition: all 1.4ms linear;
+    -o-transition: all 1.4ms linear;
+    transition: all 1.4ms linear;
+}
+
+nav{
+    background-color : gray;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    
+    
+}
+nav ul li{
+    display :inline-block;
+    text-align : center;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    position : center;
+    
+}
+
+nav ul{
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size : x-large;
+    
+}
+
+ul a:hover{
+    text-shadow: 1px 1px 5px #DD5B0F;
+}
+
+#edu {
+    background-image : url(../images/Education.png);
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 400px;
+    height: 400px;
+    margin-top : 50px;
+}
+
+#emp{
+    background-image : url(../images/Employment.png);
+    display : inline-block;
+    background-repeat : no-repeat;
+    position : center;
+    width: 400px;
+    height: 400px;
+    margin-top : 50px;
+}
+
+#container p{
+    margin-bottom : 100px;
+}
